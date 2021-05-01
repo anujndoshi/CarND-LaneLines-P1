@@ -12,7 +12,7 @@ We use multiple approaches, first one using the pipeline in which we perform tra
     Raw Image -- > Convert to Grayscale --> Apply Gaussian Blur --> Find Canny Edges -->
     Detect Region of Interest --> Detect Lines using Hough Transforms --> Add lines on original image.
     
-    ![Raw Image](./Raw.png)
+    ![Raw Image](https://github.com/anujndoshi/CarND-LaneLines-P1/blob/master/Raw.png)
 
 2. Identify any shortcomings
 
