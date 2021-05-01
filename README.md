@@ -12,7 +12,7 @@ We use multiple approaches, first one using the pipeline in which we perform tra
     Raw Image -- > Convert to Grayscale --> Apply Gaussian Blur --> Find Canny Edges -->
     Detect Region of Interest --> Detect Lines using Hough Transforms --> Add lines on original image.
     
-    ![Raw Image](/Users/anuj/Desktop/Screen Shot 2021-05-01 at 17.22.36.png)
+    ![Raw Image](./Raw.png)
 
 2. Identify any shortcomings
 
