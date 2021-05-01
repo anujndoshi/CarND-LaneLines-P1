@@ -6,17 +6,19 @@
 
 # Reflection
 
-1. Describe the pipeline
+1. Describe the pipeline.
+
+We use multiple approaches, first one using the pipeline in which we perform transforms over multiple transformations as described in the outlined pipeline:
+    Raw Image -- > Convert to Grayscale --> Apply Gaussian Blur --> Find Canny Edges -->
+    Detect Region of Interest --> Detect Lines using Hough Transforms --> Add lines on original image.
+    
+    ![Raw Image](/Users/anuj/Desktop/Screen Shot 2021-05-01 at 17.22.36.png)
 
 2. Identify any shortcomings
 
 3. Suggest possible improvements
 
-We encourage using images in your writeup to demonstrate how your pipeline works.  
 
-All that said, please be concise!  We're not looking for you to write a book here: just a brief description.
-
-You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup. Here is a link to a [writeup template file](https://github.com/udacity/CarND-LaneLines-P1/blob/master/writeup_template.md). 
 
 
 
